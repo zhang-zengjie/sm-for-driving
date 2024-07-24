@@ -17,8 +17,8 @@ def draw_temporal(IN, OUT):
 
     # Plot bars
     ax.bar(TT, move, width=0.6, label='MOVE', color='green', alpha=0.6)
-    ax.bar(TT, decel, width=0.6, label='DECEL', color='orange', alpha=0.6)
-    ax.bar(TT, stop, width=0.6, label='STOP', color='red', alpha=0.6)
+    ax.bar(TT, decel, width=0.6, label='DECEL', color='orange', alpha=0.4)
+    ax.bar(TT, stop, width=0.6, label='STOP', color='red', alpha=0.9)
 
     ax.legend(loc='upper left', bbox_to_anchor=(0.06, 0.95), fontsize='small', ncol=2)
     ax.grid(True, linestyle='-.', linewidth=0.5)
